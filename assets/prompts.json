@@ -1,0 +1,22 @@
+{
+  "tool": "built-in image_gen",
+  "count": 3,
+  "createdAt": "2026-10-28",
+  "assets": [
+    {
+      "file": "garden.png",
+      "roles": "background",
+      "prompt": "Create a polished wide landscape background illustration for a Korean middle-school math strategy game called Balance Garden. No text, letters, numbers or interface. A magical greenhouse garden at blue-hour dawn, emerald leaves, softly glowing cream and golden flowers, arched antique brass greenhouse windows, mossy stone garden paths and three empty low planting plinths across the central middle ground. Hand-painted storybook fantasy with refined 3D depth, warm gold rim light, soft teal shadows, rich detailed plants near the frame edges, calm uncluttered central area for overlaying exact mathematical interfaces. Beautiful and inviting for ages 12-15, not babyish, no characters. 1536x1024 landscape composition. Main subject is an enchanted garden that can be restored by keeping equality."
+    },
+    {
+      "file": "keeper.png",
+      "roles": "character",
+      "prompt": "A single full-body game character asset, isolated on truly transparent background: a friendly wise forest gardener made of smooth moss-covered stone with expressive amber eyes, a small fern crown, cream linen apron and brass watering can held in one hand, other hand gently presenting an idea. Whimsical refined storybook fantasy, painterly 3D depth, emerald teal foliage and warm golden rim lighting, highly readable silhouette for a middle-school math strategy game in an enchanted greenhouse. Entire figure and can visible with generous clear padding, no platform, no scenery, no text, no letters, no numbers. Centered square composition. Warm and capable, not toddler style."
+    },
+    {
+      "file": "garden-atlas.png",
+      "roles": "balance device, water resource, thorn obstacle, flower reward",
+      "prompt": "A production game asset sheet on a truly transparent background, four completely separate objects in a perfectly spaced 2 by 2 grid, each centered within its own equal square quadrant with ample transparent padding and absolutely no overlap or cropping. Top left: antique brass balance scale with two empty shallow bowls at equal level, emerald crystal at base, thick readable silhouette. Top right: a small blue water droplet crystal in a brass container, resource icon. Bottom left: coiled violet thorn bramble around a sickly small plant, the obstacle, no eyes or face. Bottom right: a fully blossomed cream and gold magical flower rooted in a small round mossy stone pot, the victory reward. Each entire object fits comfortably in its quadrant, isolated, no environment, no shadows connecting objects. Refined storybook fantasy painterly 3D style for a middle-school enchanted greenhouse game, warm golden rimlight and teal shadows, same visual scale across quadrants. No text, no letters, no numbers, no UI frames. Square image."
+    }
+  ]
+}

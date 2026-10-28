@@ -1,0 +1,329 @@
+{
+  "title": "균형 정원: 새벽의 꽃축제",
+  "version": "1.0.0",
+  "selectedUnit": "등식과 방정식",
+  "alternatives": [
+    {
+      "idea": "등식 정답 입력 퀴즈",
+      "decision": "수학 답만 확인하고 전략이 없어 제외"
+    },
+    {
+      "idea": "떨어지는 식을 빠르게 맞히는 게임",
+      "decision": "읽기 속도가 등식 이해를 가리고 첫 게임과 장르 중복 우려로 제외"
+    },
+    {
+      "idea": "양변 연산 도구를 공유하는 정원 구조 전략",
+      "decision": "같은 등식 변형도 다른 도구 비용·순서·환경에서 선택 결과가 달라 채택"
+    }
+  ],
+  "loop": "급한 화단·도구·가시 예고 읽기 → 화단 선택 → 양변 연산/물/덮개 선택 → 시간·물·식 변화 → 꽃과 물 보상 → 마지막 정원에서 결합",
+  "learning": "9수02-03. 게임 성공은 평가와 별개. 새 식의 의미·대입·양변 과정·0의 조건과 학생 설명을 assessment에서 확인.",
+  "rules": {
+    "water": "도구1, 돌보기2 소모; 개화3 회수",
+    "time": "모든 성공한 행동1차례; 마지막 제한 차례 개화 가능",
+    "thorn": "주기마다 미완성 비보호 화단 양변+1. 해는 그대로",
+    "shield": "물2,1차례. 이후 해당 화단 가시 차단",
+    "inventory": "정원 전체가 도구 수량 공유",
+    "bloom": "x=수 꼴이 되면 자동 개화",
+    "recovery": "직전 상태 복원; 기록은 남음; 정원 재시작",
+    "assessment": "새 문항의 첫 무도움 성공만 독립 증거. 설명은 교사 검토. 게임 보상과 별개"
+  },
+  "progression": [
+    {
+      "id": 1,
+      "title": "잠든 첫 꽃",
+      "newDecision": "양쪽에서 같은 수를 빼고, 같은 수로 나누어 x = 수를 만들어요.",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "sub4"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "div2"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "급한 꽃부터",
+      "newDecision": "B는 2차례 안에 꽃피워야 해요. 먼저 꽃피울 화단을 골라보세요.",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "sub3"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "sub4"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "div2"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "하나뿐인 도구",
+      "newDecision": "4 빼기는 한 번뿐이에요. 어떤 화단은 먼저 나누면 다른 도구로 해결할 수 있어요.",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "sub4"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "div2"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "div4"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "sub1"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "음수도 같은 약속",
+      "newDecision": "−2로 나눠도 양쪽에 똑같이 하면 해는 같아요. 저울 그림은 등식의 비유이며 음수 무게를 뜻하지 않아요.",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "divN2"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "add3"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "add3"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "시간을 사는 물방울",
+      "newDecision": "두 화단의 제한은 모두 3차례. 물 2방울을 써서 한 화단의 시간을 3차례 늘려야 해요.",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "sub4"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "div2"
+        },
+        {
+          "kind": "water",
+          "bed": 1
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "sub3"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "div3"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "가시가 자라는 밤",
+      "newDecision": "3차례마다 가시가 양쪽에 1씩 더해요. 덮개로 막을지, 바뀐 식을 다시 풀지 선택하세요.",
+      "verifiedPlan": [
+        {
+          "kind": "shield",
+          "bed": 1
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "sub3"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "div3"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "sub2"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "div2"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "빛을 나누는 정원",
+      "newDecision": "C는 A가 피어야 열려요. 덮개를 씌우는 동안 다른 식이 바뀔 수 있으니 가시 예고를 보세요.",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "sub3"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "div3"
+        },
+        {
+          "kind": "shield",
+          "bed": 1
+        },
+        {
+          "kind": "card",
+          "bed": 2,
+          "card": "sub2"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "sub2"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "div2"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "양쪽에 있는 씨앗",
+      "newDecision": "양쪽에서 x를 빼면 오른쪽의 x를 없앨 수 있어요. 급한 꽃도 놓치지 마세요.",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "sub2"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "subX"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "sub2"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "div2"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "새벽의 꽃축제",
+      "newDecision": "꽃피우는 순서, 남은 도구, 물과 덮개를 함께 계획하세요. 한 가지 방법만 정답인 것은 아니에요.",
+      "verifiedPlan": [
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "sub4"
+        },
+        {
+          "kind": "card",
+          "bed": 0,
+          "card": "div2"
+        },
+        {
+          "kind": "water",
+          "bed": 2
+        },
+        {
+          "kind": "shield",
+          "bed": 1
+        },
+        {
+          "kind": "card",
+          "bed": 2,
+          "card": "sub2"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "subX"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "sub3"
+        },
+        {
+          "kind": "card",
+          "bed": 1,
+          "card": "div2"
+        }
+      ]
+    }
+  ],
+  "counterexamples": [
+    {
+      "stage": 2,
+      "claim": "항상 A부터 하면 급한 B가 시간 초과",
+      "test": "doing A first fails urgent B"
+    },
+    {
+      "stage": 3,
+      "claim": "항상 상수부터 빼면 공유 도구 소진으로 다른 화단을 풀 수 없음",
+      "test": "spending unique subtraction on B"
+    },
+    {
+      "stage": 5,
+      "claim": "연산만 하면 총4행동이 공통3차례 마감보다 길어 실패; 물로 시간 구매 필요",
+      "test": "water necessary garden five"
+    },
+    {
+      "stage": 6,
+      "claim": "변경 전 식에 계획한 도구만 쓰면 가시+1 때문에 정규형 미완성. 추가빼기 혹은 덮개 필요",
+      "test": "shield tradeoff"
+    },
+    {
+      "stage": 7,
+      "claim": "잠긴 C는 먼저 풀 수 없음. A 개화와 가시 뒤의 식을 함께 확인",
+      "test": "light gate"
+    },
+    {
+      "stage": 9,
+      "claim": "빠른 도구 계획과 물로 여유를 확보하는 다른 계획이 모두 가능하며 자원·시간 결과가 다름",
+      "test": "finale supports two plans"
+    }
+  ],
+  "funHypotheses": [
+    "한정된 연산 도구가 풀이 순서 탐색으로 이어질 것",
+    "꽃 보상으로 다음 화단을 살리는 연쇄가 동기가 될 것",
+    "가시 예고와 덮개가 기다리는 퀴즈보다 능동적 선택을 만들 것"
+  ],
+  "limits": "학생 대상 재미·학습효과 실험을 하지 않음. 혼자 사용하는 형성평가 자료이며 감독 시험·공식 이수 판정 아님."
+}

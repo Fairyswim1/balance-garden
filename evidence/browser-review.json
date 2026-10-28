@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "checkedAt": "2026-10-28T00:55:12.447Z",
+  "sourceHash": "7f0b2ddf7934b6620c5ef2c6c257f370fa3b4d06c725abc0768ba09ae42677a1",
+  "screenshots": [
+    "evidence/garden-first-win.png",
+    "evidence/garden-finale-win.png",
+    "evidence/garden-desktop.png",
+    "evidence/garden-mobile.png",
+    "evidence/garden-assessment-mobile.png"
+  ],
+  "checks": [
+    "First garden tutorial completed in 2 turns, water 8, 3 stars",
+    "Garden 2: doing A first loses B at deadline; undo and B-first recover to victory",
+    "Final garden 9: water extension, shield, shared cards and variable subtraction combined; won in 8 turns with water 7",
+    "Garden 7 played on 390px mobile through gate and thorn changes to victory in 6 turns with water 9",
+    "Game stars and action log persist across reload; logs include before/after equations, resources and undo",
+    "Final SVG clip rectangles verified at desktop and 390px: no atlas bleed",
+    "Mobile document scrollWidth 376 <= viewport 390; math signs, buttons and fonts readable",
+    "No browser console warnings or errors"
+  ],
+  "assessment": {
+    "codes": [
+      "9수02-03"
+    ],
+    "independent": true,
+    "hint": true,
+    "retry": true,
+    "persistence": true,
+    "report": true,
+    "export": true,
+    "mobile": true,
+    "details": "12 tasks / 13 submissions: deliberately wrong substitution then corrected; one helped equality task. Independent counts 3/2/2/3, one error and one helped submission. Synthetic explanation and teacher feedback saved, reload preserved 13 attempts and 1 hint event. Export JSON preview, blob link and filename verified. No real student evaluation or official completion judgment."
+  },
+  "typography": {
+    "status": "passed",
+    "mobileWidth": 390,
+    "referenceGames": [
+      "forest",
+      "soinsu"
+    ],
+    "fonts": {
+      "title": "Jua",
+      "display": "Do Hyeon",
+      "body": "Gowun Dodum"
+    },
+    "checks": [
+      "Computed roles checked",
+      "Self-hosted WOFF2 and licenses",
+      "Desktop and 390px screenshots inspected"
+    ]
+  },
+  "limitations": [
+    "No learner enjoyment or learning-effect study",
+    "Vercel deployment not yet performed; user Import required",
+    "Final graphic-only clip fix visually retested; gameplay logic unchanged"
+  ]
+}
