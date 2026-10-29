@@ -1,14 +1,15 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-29T05:59:26.100Z",
-  "sourceHash": "caa5d23220e4acbc8c64c084d43ce247abab0835a10a2e6838da20096fa7e891",
+  "checkedAt": "2026-10-29T06:42:49.347Z",
+  "sourceHash": "b0eba986e60572e74e374774fbba285313f636877bf9d00c6fc4585f96c01fab",
   "screenshots": [
     "evidence/garden-first-win.png",
     "evidence/garden-finale-win.png",
     "evidence/garden-desktop.png",
     "evidence/garden-mobile.png",
     "evidence/garden-assessment-mobile.png",
-    "evidence/home-mobile.png"
+    "evidence/home-mobile.png",
+    "evidence/balance-garden-sound-mobile.png"
   ],
   "checks": [
     "First garden tutorial completed in 2 turns, water 8, 3 stars",
@@ -57,8 +58,8 @@
     "Final graphic-only clip fix visually retested; gameplay logic unchanged"
   ],
   "previousReview": {
-    "sourceHash": "7f0b2ddf7934b6620c5ef2c6c257f370fa3b4d06c725abc0768ba09ae42677a1",
-    "checkedAt": "2026-10-28T00:55:12.447Z"
+    "sourceHash": "caa5d23220e4acbc8c64c084d43ce247abab0835a10a2e6838da20096fa7e891",
+    "checkedAt": "2026-10-29T05:59:26.100Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:26.100Z",
@@ -69,5 +70,25 @@
     "mobileLinkWithinViewport": true,
     "screenshot": "evidence/home-mobile.png",
     "scope": "Home navigation only; game and assessment logic unchanged"
+  },
+  "soundRevision": {
+    "status": "passed",
+    "browserOutputSignal": true,
+    "preferenceAfterReload": true,
+    "mute": true,
+    "mobileWidth": 390,
+    "overflowX": false,
+    "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
+  },
+  "assessmentReuse": {
+    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
+    "previousSourceHash": "caa5d23220e4acbc8c64c084d43ce247abab0835a10a2e6838da20096fa7e891"
+  },
+  "usabilityRevision": {
+    "status": "passed",
+    "checks": [
+      "First stage two equation operations and three-star win",
+      "Water extension hidden before stage 5, shield hidden until thorns"
+    ]
   }
 }

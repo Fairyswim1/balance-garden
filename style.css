@@ -3,3 +3,5 @@
 #water{display:flex;gap:8px;align-items:center}#water .sprite{width:35px;height:38px;flex:none}
 
 .sprite{overflow:hidden}.bed .thorn{grid-column:auto;grid-row:auto}
+
+[hidden]{display:none!important}
