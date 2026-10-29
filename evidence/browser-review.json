@@ -1,13 +1,14 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-28T00:55:12.447Z",
-  "sourceHash": "7f0b2ddf7934b6620c5ef2c6c257f370fa3b4d06c725abc0768ba09ae42677a1",
+  "checkedAt": "2026-10-29T05:59:26.100Z",
+  "sourceHash": "caa5d23220e4acbc8c64c084d43ce247abab0835a10a2e6838da20096fa7e891",
   "screenshots": [
     "evidence/garden-first-win.png",
     "evidence/garden-finale-win.png",
     "evidence/garden-desktop.png",
     "evidence/garden-mobile.png",
-    "evidence/garden-assessment-mobile.png"
+    "evidence/garden-assessment-mobile.png",
+    "evidence/home-mobile.png"
   ],
   "checks": [
     "First garden tutorial completed in 2 turns, water 8, 3 stars",
@@ -54,5 +55,19 @@
     "No learner enjoyment or learning-effect study",
     "Vercel deployment not yet performed; user Import required",
     "Final graphic-only clip fix visually retested; gameplay logic unchanged"
-  ]
+  ],
+  "previousReview": {
+    "sourceHash": "7f0b2ddf7934b6620c5ef2c6c257f370fa3b4d06c725abc0768ba09ae42677a1",
+    "checkedAt": "2026-10-28T00:55:12.447Z"
+  },
+  "homeNavigation": {
+    "checkedAt": "2026-10-29T05:59:26.100Z",
+    "status": "passed",
+    "destination": "https://math-game-arcade.vercel.app/",
+    "sameTabClickVerified": true,
+    "mobileWidth": 390,
+    "mobileLinkWithinViewport": true,
+    "screenshot": "evidence/home-mobile.png",
+    "scope": "Home navigation only; game and assessment logic unchanged"
+  }
 }
