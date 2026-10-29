@@ -18,8 +18,17 @@
     "assets/garden-atlas.png"
   ],
   "createdAt": "2026-10-28T00:41:41.157Z",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "deploymentTarget": "vercel",
   "repositoryStatus": "created",
-  "repository": "https://github.com/Fairyswim1/balance-garden"
+  "repository": "https://github.com/Fairyswim1/balance-garden",
+  "tutorial": {
+    "version": 1,
+    "firstVisit": true,
+    "replay": true,
+    "skippable": true,
+    "steps": 5,
+    "practiceProgress": "isolated-memory",
+    "style": "spotlight"
+  }
 }

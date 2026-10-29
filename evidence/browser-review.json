@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-29T06:42:49.347Z",
-  "sourceHash": "b0eba986e60572e74e374774fbba285313f636877bf9d00c6fc4585f96c01fab",
+  "checkedAt": "2026-10-29T07:09:39.561Z",
+  "sourceHash": "1a749e369d829b01817ec11be704a6f02e98bec099abe13e8624f0103e2fb7e0",
   "screenshots": [
     "evidence/garden-first-win.png",
     "evidence/garden-finale-win.png",
@@ -9,7 +9,9 @@
     "evidence/garden-mobile.png",
     "evidence/garden-assessment-mobile.png",
     "evidence/home-mobile.png",
-    "evidence/balance-garden-sound-mobile.png"
+    "evidence/balance-garden-sound-mobile.png",
+    "evidence/tutorial-desktop.png",
+    "evidence/tutorial-mobile.png"
   ],
   "checks": [
     "First garden tutorial completed in 2 turns, water 8, 3 stars",
@@ -58,8 +60,8 @@
     "Final graphic-only clip fix visually retested; gameplay logic unchanged"
   ],
   "previousReview": {
-    "sourceHash": "caa5d23220e4acbc8c64c084d43ce247abab0835a10a2e6838da20096fa7e891",
-    "checkedAt": "2026-10-29T05:59:26.100Z"
+    "sourceHash": "b0eba986e60572e74e374774fbba285313f636877bf9d00c6fc4585f96c01fab",
+    "checkedAt": "2026-10-29T06:42:49.347Z"
   },
   "homeNavigation": {
     "checkedAt": "2026-10-29T05:59:26.100Z",
@@ -81,8 +83,8 @@
     "scope": "Real WebAudio analyser samples verified; device speaker volume is outside browser verification."
   },
   "assessmentReuse": {
-    "reason": "Assessment question, scoring, storage, export and teacher review logic unchanged. Prior actual assessment evidence retained; zero-forest display title only renamed.",
-    "previousSourceHash": "caa5d23220e4acbc8c64c084d43ce247abab0835a10a2e6838da20096fa7e891"
+    "reason": "Assessment application is unchanged; tutorial storage is isolated memory. Prior independent assessment evidence retained.",
+    "previousSourceHash": "b0eba986e60572e74e374774fbba285313f636877bf9d00c6fc4585f96c01fab"
   },
   "usabilityRevision": {
     "status": "passed",
@@ -90,5 +92,25 @@
       "First stage two equation operations and three-star win",
       "Water extension hidden before stage 5, shield hidden until thorns"
     ]
+  },
+  "tutorialRevision": {
+    "status": "passed",
+    "firstVisit": true,
+    "actualActionsToFirstWin": true,
+    "skip": true,
+    "replay": true,
+    "noAutomaticReplayAfterSeen": true,
+    "desktopTargetUncovered": true,
+    "mobileWidth": 390,
+    "mobileTargetUncovered": true,
+    "recordIsolation": "Unit tests prove existing game and assessment keys untouched; Number Forest in-progress stage 6 target and undo restored after replay/skip; Starlight guided coordinates have zero independent successes.",
+    "keyboard": "Shared Tab/Shift+Tab focus routing and Escape implemented; actual Tab into stone and Escape restoration verified in Number Forest.",
+    "negativeChecks": [
+      "Moon wrong part length does not advance",
+      "Cloud wrong representative value does not advance",
+      "Cloud Enter on quantity cannot craft before craft step",
+      "Frost repeated click cannot skip temperature lesson"
+    ],
+    "browserConsoleErrors": 0
   }
 }
