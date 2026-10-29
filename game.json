@@ -4,21 +4,23 @@
   "grade": 1,
   "unit": "3-4 등식과 방정식",
   "category": "문자와 식",
-  "description": "같은 연산으로 균형을 지키며 꽃을 피우세요. 한정된 도구를 나누고, 물로 시간을 벌고, 가시를 막는 9개 정원에서 나만의 순서를 찾습니다.",
+  "description": "같은 연산으로 균형을 지키며 꽃을 피우세요. 한정된 도구를 나누고, 물로 시간을 벌고, 가시를 막는 12개 정원에서 나만의 순서를 찾습니다.",
   "tags": [
     "등식의 성질",
     "자원 전략",
-    "9개 정원"
+    "12개 정원"
   ],
-  "duration": "20–35분",
-  "stageCount": 9,
+  "duration": "30–50분",
+  "stageCount": 12,
   "assets": [
     "assets/garden.png",
     "assets/keeper.png",
-    "assets/garden-atlas.png"
+    "assets/garden-atlas.png",
+    "assets/control-frame-v2.png",
+    "assets/round-marker-v2.png"
   ],
   "createdAt": "2026-10-28T00:41:41.157Z",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "deploymentTarget": "vercel",
   "repositoryStatus": "created",
   "repository": "https://github.com/Fairyswim1/balance-garden",
