@@ -1,7 +1,7 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-29T08:36:33.362Z",
-  "sourceHash": "a0c82848a418491f0a8c2ad6c7c981d02e5ca925cde217eec2eddfca654a466c",
+  "sourceHash": "9ec90af2598b7d45319c8fe2403619f392f00d23fb66377b26481b92284e6a26",
   "screenshots": [
     "evidence/garden-first-win.png",
     "evidence/garden-finale-win.png",
@@ -142,5 +142,11 @@
     "tutorial": "Replay introduction and first spotlight visually verified at 390px; guided gameplay/state logic unchanged",
     "assessmentReuse": "Assessment source and UI unchanged. Previous independent/hint/retry/report/export checks retained; all automated tests rerun.",
     "consoleErrors": 0
+  },
+  "provenanceRemoval": {
+    "checkedAt": "2026-10-29T08:54:35.745Z",
+    "status": "passed",
+    "method": "Actual browser: assessment loads, provenance block absent, no JS errors; Number Bloom answer submit passed",
+    "retainedEvidence": "Prior gameplay, assessment and typography tests unchanged except removed footer rendering"
   }
 }
