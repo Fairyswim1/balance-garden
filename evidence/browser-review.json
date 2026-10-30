@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-30T06:08:14.877Z",
-  "sourceHash": "b49a977b7d46f3a24c9fc19333b2a821e83e41542cfbbe97a55c49f6b91c329b",
+  "checkedAt": "2026-10-30T06:17:04.697Z",
+  "sourceHash": "3466e887abe2c41e9d7e415647f1191dc0891cd4070334b33d258b5488170ff0",
   "screenshots": [
     "evidence/garden-first-win.png",
     "evidence/garden-finale-win.png",
@@ -41,9 +41,10 @@
     "retry": true,
     "persistence": true,
     "report": true,
-    "export": true,
+    "export": false,
     "mobile": true,
-    "details": "12 tasks / 13 submissions: deliberately wrong substitution then corrected; one helped equality task. Independent counts 3/2/2/3, one error and one helped submission. Synthetic explanation and teacher feedback saved, reload preserved 13 attempts and 1 hint event. Export JSON preview, blob link and filename verified. No real student evaluation or official completion judgment."
+    "details": "12 tasks / 13 submissions: deliberately wrong substitution then corrected; one helped equality task. Independent counts 3/2/2/3, one error and one helped submission. Synthetic explanation and teacher feedback saved, reload preserved 13 attempts and 1 hint event. Export JSON preview, blob link and filename verified. No real student evaluation or official completion judgment.",
+    "jsonUiRemoved": true
   },
   "typography": {
     "status": "passed",
@@ -196,5 +197,27 @@
     "assessment": "No assessment source or styles changed; prior assessment review retained.",
     "testsPassed": 31,
     "consoleErrors": 0
+  },
+  "previousJsonUiReview": {
+    "checkedAt": "2026-10-30T06:08:14.877Z",
+    "sourceHash": "b49a977b7d46f3a24c9fc19333b2a821e83e41542cfbbe97a55c49f6b91c329b",
+    "export": true
+  },
+  "jsonUiRemoval": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:16:46.888Z",
+    "scope": "JSON raw preview and download removed. Readable learning results and local progress storage retained. Gameplay, assessment grading and layout otherwise unchanged.",
+    "report": {
+      "id": "balance-garden",
+      "report": true,
+      "noJson": true,
+      "exportButtons": 0,
+      "errors": []
+    },
+    "commonSubmission": {
+      "submitted": true,
+      "result": "내 답: 방정식",
+      "persistedAfterReload": true
+    }
   }
 }
