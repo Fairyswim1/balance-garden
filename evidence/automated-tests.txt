@@ -2,87 +2,87 @@ TAP version 13
 # Subtest: every advertised skill has three varied tasks per form; source pages are present
 ok 1 - every advertised skill has three varied tasks per form; source pages are present
   ---
-  duration_ms: 6.5903
+  duration_ms: 7.6743
   ...
 # Subtest: factor parsing rejects composites, one, malformed powers, code and unbounded powers
 ok 2 - factor parsing rejects composites, one, malformed powers, code and unbounded powers
   ---
-  duration_ms: 0.8351
+  duration_ms: 1.2514
   ...
 # Subtest: GCD and LCM result and factorization process are both required, including coprime pairs
 ok 3 - GCD and LCM result and factorization process are both required, including coprime pairs
   ---
-  duration_ms: 0.5047
+  duration_ms: 0.7665
   ...
 # Subtest: incorrect, assisted, and retry successes cannot produce independent credit
 ok 4 - incorrect, assisted, and retry successes cannot produce independent credit
   ---
-  duration_ms: 2.5506
+  duration_ms: 2.9454
   ...
 # Subtest: new form supports remediation; exhausted forms do not mint fresh item ids
 ok 5 - new form supports remediation; exhausted forms do not mint fresh item ids
   ---
-  duration_ms: 0.3704
+  duration_ms: 0.2445
   ...
 # Subtest: independent evidence does not automatically grade explanations or formal completion
 ok 6 - independent evidence does not automatically grade explanations or formal completion
   ---
-  duration_ms: 0.8183
+  duration_ms: 0.7754
   ...
 # Subtest: plots reject swapped coordinates, missing points and extra points; blank is not zero
 ok 7 - plots reject swapped coordinates, missing points and extra points; blank is not zero
   ---
-  duration_ms: 0.6129
+  duration_ms: 0.4579
   ...
 # Subtest: comparison keys agree with independent arithmetic, including negative square roots
 ok 8 - comparison keys agree with independent arithmetic, including negative square roots
   ---
-  duration_ms: 0.4818
+  duration_ms: 0.4178
   ...
 # Subtest: new standard covers all four advertised skills with varied fresh tasks
 ok 9 - new standard covers all four advertised skills with varied fresh tasks
   ---
-  duration_ms: 2.3703
+  duration_ms: 3.7214
   ...
 # Subtest: a correct root verdict with wrong substitution is rejected
 ok 10 - a correct root verdict with wrong substitution is rejected
   ---
-  duration_ms: 0.1858
+  duration_ms: 0.284
   ...
 # Subtest: one-sided explanation and zero division misconception cannot pass
 ok 11 - one-sided explanation and zero division misconception cannot pass
   ---
-  duration_ms: 0.1951
+  duration_ms: 0.3196
   ...
 # Subtest: retry, help and form reuse do not create independent evidence; explanation still pending
 ok 12 - retry, help and form reuse do not create independent evidence; explanation still pending
   ---
-  duration_ms: 4.0872
+  duration_ms: 5.9848
   ...
 # Subtest: all twelve gardens have legal winning sequences and preserve independently substituted roots
 ok 13 - all twelve gardens have legal winning sequences and preserve independently substituted roots
   ---
-  duration_ms: 3.9354
+  duration_ms: 4.8661
   ...
 # Subtest: add/subtract/multiply/nonzero-divide preserve equality; zero division forbidden
 ok 14 - add/subtract/multiply/nonzero-divide preserve equality; zero division forbidden
   ---
-  duration_ms: 2.6326
+  duration_ms: 2.6774
   ...
 # Subtest: doing A first fails urgent B; recovery can restore a previous immutable state
 ok 15 - doing A first fails urgent B; recovery can restore a previous immutable state
   ---
-  duration_ms: 0.3224
+  duration_ms: 0.4515
   ...
 # Subtest: spending the unique subtraction on B makes remaining tool inventory unsolvable
 ok 16 - spending the unique subtraction on B makes remaining tool inventory unsolvable
   ---
-  duration_ms: 3.229
+  duration_ms: 2.9383
   ...
 # Subtest: water extends only chosen deadline and costs a turn plus two water; it is necessary in garden five
 ok 17 - water extends only chosen deadline and costs a turn plus two water; it is necessary in garden five
   ---
-  duration_ms: 6.9438
+  duration_ms: 4.2157
   ...
 # Subtest: shield trades one water for preserving a subtraction tool; both strategies win
 ok 18 - shield trades one water for preserving a subtraction tool; both strategies win
@@ -92,67 +92,67 @@ ok 18 - shield trades one water for preserving a subtraction tool; both strategi
 # Subtest: light gate blocks early C operations; thorns change both sides without changing root
 ok 19 - light gate blocks early C operations; thorns change both sides without changing root
   ---
-  duration_ms: 0.2693
+  duration_ms: 0.2765
   ...
 # Subtest: invalid, depleted, unaffordable and terminal actions never consume resources
 ok 20 - invalid, depleted, unaffordable and terminal actions never consume resources
   ---
-  duration_ms: 0.4572
+  duration_ms: 0.6297
   ...
 # Subtest: finale supports a faster lower-water plan and a recovery-oriented extension plan
 ok 21 - finale supports a faster lower-water plan and a recovery-oriented extension plan
   ---
-  duration_ms: 0.8852
+  duration_ms: 0.6729
   ...
 # Subtest: 10번째 정원은 앞 화단부터 차례로 풀면 급한 C가 시든다
 ok 22 - 10번째 정원은 앞 화단부터 차례로 풀면 급한 C가 시든다
   ---
-  duration_ms: 0.5931
+  duration_ms: 0.5693
   ...
 # Subtest: 12번째 정원은 A를 완성하고 C를 시작하기 전 물로 약속 시간을 늘린다
 ok 23 - 12번째 정원은 A를 완성하고 C를 시작하기 전 물로 약속 시간을 늘린다
   ---
-  duration_ms: 0.5159
+  duration_ms: 0.494
   ...
 # Subtest: muted effects never start; enable, play and mute stop active oscillators
 ok 24 - muted effects never start; enable, play and mute stop active oscillators
   ---
-  duration_ms: 1.8544
+  duration_ms: 1.7976
   ...
 # Subtest: preference survives new controller and test checks a generated waveform
 ok 25 - preference survives new controller and test checks a generated waveform
   ---
-  duration_ms: 90.9428
+  duration_ms: 88.7403
   ...
 # Subtest: blocked playback returns an error instead of falsely reporting enabled sound
 ok 26 - blocked playback returns an error instead of falsely reporting enabled sound
   ---
-  duration_ms: 0.5449
+  duration_ms: 0.5744
   ...
 # Subtest: muting while resume is pending cannot re-enable playback
 ok 27 - muting while resume is pending cannot re-enable playback
   ---
-  duration_ms: 0.3022
+  duration_ms: 0.2856
   ...
 # Subtest: unavailable storage does not prevent sound playback
 ok 28 - unavailable storage does not prevent sound playback
   ---
-  duration_ms: 0.3249
+  duration_ms: 0.3021
   ...
 # Subtest: first visit uses isolated practice state and leaves existing progress untouched
 ok 29 - first visit uses isolated practice state and leaves existing progress untouched
   ---
-  duration_ms: 3.017
+  duration_ms: 3.2151
   ...
 # Subtest: skip and replay are per game and replay cannot overwrite learning records
 ok 30 - skip and replay are per game and replay cannot overwrite learning records
   ---
-  duration_ms: 0.4528
+  duration_ms: 0.4636
   ...
 # Subtest: storage denied can still skip without a redirect loop
 ok 31 - storage denied can still skip without a redirect loop
   ---
-  duration_ms: 0.2532
+  duration_ms: 0.2605
   ...
 1..31
 # tests 31
@@ -162,4 +162,4 @@ ok 31 - storage denied can still skip without a redirect loop
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 244.8045
+# duration_ms 233.7092
