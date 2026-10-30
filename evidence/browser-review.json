@@ -1,7 +1,7 @@
 {
   "status": "passed",
-  "checkedAt": "2026-10-30T01:16:07.907Z",
-  "sourceHash": "75e2cc7b20229ba9cb271db63439a26ddde999594f141ba79ff16135bd60b640",
+  "checkedAt": "2026-10-30T06:08:14.877Z",
+  "sourceHash": "b49a977b7d46f3a24c9fc19333b2a821e83e41542cfbbe97a55c49f6b91c329b",
   "screenshots": [
     "evidence/garden-first-win.png",
     "evidence/garden-finale-win.png",
@@ -15,7 +15,11 @@
     "evidence/balance-refresh-desktop.png",
     "evidence/balance-refresh-mobile.png",
     "evidence/balance-refresh-tutorial.png",
-    "evidence/student-copy.png"
+    "evidence/student-copy.png",
+    "evidence/garden-safe-controls-desktop.png",
+    "evidence/garden-safe-controls-mobile.png",
+    "evidence/garden-safe-care-mobile.png",
+    "evidence/garden-safe-controls-tutorial.png"
   ],
   "checks": [
     "First garden tutorial completed in 2 turns, water 8, 3 stars",
@@ -61,7 +65,6 @@
   },
   "limitations": [
     "No learner enjoyment or learning-effect study",
-    "Vercel deployment not yet performed; user Import required",
     "Final graphic-only clip fix visually retested; gameplay logic unchanged"
   ],
   "previousReview": {
@@ -158,5 +161,40 @@
     "reportOpened": true,
     "proceduralExplanationRemoved": true,
     "scope": "Copy-only: gameplay and assessment logic unchanged. Prior gameplay/assessment evidence retained; current tests and build passed."
+  },
+  "previousLayoutReview": {
+    "checkedAt": "2026-10-30T01:16:07.907Z",
+    "sourceHash": "75e2cc7b20229ba9cb271db63439a26ddde999594f141ba79ff16135bd60b640"
+  },
+  "controlLayoutRevision": {
+    "status": "passed",
+    "checkedAt": "2026-10-30T06:08:14.877Z",
+    "widths": [
+      1266,
+      768,
+      390
+    ],
+    "stagesPerWidth": 12,
+    "overflowCases": 0,
+    "textElementsChecked": [
+      "tool labels",
+      "remaining counts",
+      "bed titles",
+      "equations",
+      "bed status"
+    ],
+    "visualChecks": [
+      "desktop and mobile hero/header",
+      "round markers and three-bed garden",
+      "subtraction and negative division tools",
+      "water and shield",
+      "undo and restart",
+      "mobile win and loss modal",
+      "mobile guided actions to first success"
+    ],
+    "gameplay": "First garden win; second garden loss and restart; water action; tutorial completed. Game engine and level data unchanged.",
+    "assessment": "No assessment source or styles changed; prior assessment review retained.",
+    "testsPassed": 31,
+    "consoleErrors": 0
   }
 }
