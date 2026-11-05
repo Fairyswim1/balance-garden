@@ -1,0 +1,42 @@
+{
+  "title": "이슬 맺힌 정원",
+  "origin": "Original synthesized stereo compositions; no third-party samples",
+  "profile": {
+    "title": "이슬 맺힌 정원",
+    "root": 60,
+    "bpm": 66,
+    "color": "harp",
+    "minor": false,
+    "motif": [
+      4,
+      7,
+      12,
+      9,
+      7,
+      4,
+      2,
+      0
+    ]
+  },
+  "generator": "scripts/compose-music.py",
+  "tracks": [
+    {
+      "mode": "focus",
+      "bpm": 66,
+      "seconds": 58.18181405895692,
+      "peak": 0.24963825204564885,
+      "rms": 0.056537817685779264,
+      "seamDelta": 0.002113234298719485,
+      "sha256": "1d368aa74f1abb01ffa58fa43651b005a69f80dddf8b5a3d61c04a8c80912001"
+    },
+    {
+      "mode": "energy",
+      "bpm": 90,
+      "seconds": 42.666666666666664,
+      "peak": 0.2897343839499991,
+      "rms": 0.06992370471233059,
+      "seamDelta": 0.002636593814287519,
+      "sha256": "3dc3d11ad6d347b0a42c19f049355efc47ff56b11d663d46aee877d85554a460"
+    }
+  ]
+}
