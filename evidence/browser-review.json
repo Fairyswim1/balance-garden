@@ -1,11 +1,12 @@
 {
   "status": "passed",
   "checkedAt": "2026-10-30T07:51:40.635Z",
-  "sourceHash": "24d419f167079ec9311209e723489b303bf386b19855dab6bf59798f40a3da2d",
+  "sourceHash": "f62a455f6585e7d497528150e267dbcd77cd40d50feb0c9490bd72dc408ed37f",
   "screenshots": [
     "evidence/math-balance-garden-desktop.png",
     "evidence/math-balance-garden-mobile.png",
-    "evidence/math-balance-garden-assessment.png"
+    "evidence/math-balance-garden-assessment.png",
+    "evidence/first-visit-mobile.png"
   ],
   "checks": [
     "All stage starting layouts checked at 390px; desktop final-stage screenshot inspected.",
@@ -70,5 +71,17 @@
     "musicMenuInBounds": true,
     "consoleErrors": [],
     "scope": "Audio-only change. Previous full gameplay/assessment verification retained; all automated gameplay tests rerun."
+  },
+  "firstVisitRevision": {
+    "checkedAt": "2026-11-06T04:44:41.325Z",
+    "id": "balance-garden",
+    "firstVisitOff": true,
+    "startedStep": "꽃을 피우는 약속",
+    "skipCleanUrl": true,
+    "reloadNoTour": true,
+    "replay": true,
+    "mobileWidth": 390,
+    "previousSourceHash": "24d419f167079ec9311209e723489b303bf386b19855dab6bf59798f40a3da2d",
+    "scope": "First-visit decision, isolated tutorial initialization, exit/reload and replay. Prior math and assessment browser evidence retained; existing automated suites rerun."
   }
 }
